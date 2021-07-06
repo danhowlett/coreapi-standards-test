@@ -12,7 +12,7 @@ jobs:
         run: |
           npm install yarn
           yarn install
-          node index.js draft ../inventory.json output.md
+          node index.js draft ../inventory.json index.md
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
