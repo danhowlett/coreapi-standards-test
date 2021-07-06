@@ -11,8 +11,9 @@ const standards = JSON.parse(fs.readFileSync(inventoryFileName));
 
 const inventoryRootDirectory = path.dirname(path.resolve(inventoryFileName));
 
+fs.mkdirSync('output', { recursive: true });
 fs.writeFileSync(
-  outputFileName,
+  `output/${outputFileName}`,
   buildMarkdownFromFlatArray(
     flattenStandards(standards, documentStatus, inventoryRootDirectory)
   )
