@@ -1,0 +1,312 @@
+{
+  "title": "Tech API Standards",
+  "status": "draft",
+  "rulesets": ["core"],
+  "subsections": [
+    {
+      "title": "About these standards",
+      "status": "draft",
+      "rulesets": ["core"],
+      "subsections": [
+        {
+          "title": "Objectives",
+          "contents": "./inventory/about/objectives.md",
+          "status": "in-development",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Vocabulary",
+          "contents": "./inventory/about/vocabulary.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Context",
+          "contents": "./inventory/about/context.md",
+          "status": "in-development",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Application",
+          "contents": "./inventory/about/application.md",
+          "status": "draft",
+          "rulesets": ["core"],
+          "subsections": [
+            {
+              "title": "How do these standards apply to existing services?",
+              "contents": "./inventory/about/application/existing-services.md",
+              "status": "draft",
+              "rulesets": ["core"]
+            }
+          ]
+        },
+        {
+          "title": "Versioning of these standards",
+          "contents": "./inventory/about/versioning.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Standards development process",
+          "contents": "./inventory/about/development-process.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Examples",
+          "contents": "./inventory/about/examples.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        }
+      ]
+    },
+    {
+      "title": "Client guidance",
+      "contents": "./inventory/client-guidance.md",
+      "status": "draft",
+      "rulesets": ["core"]
+    },
+    {
+      "title": "General API standards",
+      "status": "draft",
+      "rulesets": ["core"],
+      "subsections": [
+        {
+          "title": "Naming conventions",
+          "contents": "./inventory/general/naming-conventions.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Versioning",
+          "contents": "./inventory/general/versioning.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Documentation",
+          "status": "in-development",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Error handling",
+          "contents": "./inventory/general/error-handling.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        }
+      ]
+    },
+    {
+      "title": "HTTP fundamentals",
+      "status": "draft",
+      "rulesets": ["core"],
+      "subsections": [
+        {
+          "title": "Status codes",
+          "contents": "./inventory/http/status-codes.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "URIs and resources",
+          "contents": "./inventory/http/uris.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Request and response headers",
+          "contents": "./inventory/http/headers.md",
+          "status": "in-development",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Verbs / methods",
+          "contents": "./inventory/http/verbs.md",
+          "status": "draft",
+          "rulesets": ["core"],
+          "subsections": [
+            {
+              "title": "Idempotency and safety?",
+              "contents": "./inventory/http/verbs/idempotency-and-safety.md",
+              "status": "draft",
+              "rulesets": ["core"]
+            },
+            {
+              "title": "Guidance for specific HTTP verbs",
+              "status": "draft",
+              "rulesets": ["core"],
+              "subsections": [
+                {
+                  "title": "OPTIONS",
+                  "contents": "./inventory/http/verbs/options.md",
+                  "status": "draft",
+                  "rulesets": ["core"]
+                },
+                {
+                  "title": "PATCH",
+                  "contents": "./inventory/http/verbs/patch.md",
+                  "status": "draft",
+                  "rulesets": ["core"]
+                },
+                {
+                  "title": "POST",
+                  "contents": "./inventory/http/verbs/post.md",
+                  "status": "draft",
+                  "rulesets": ["core"]
+                },
+                {
+                  "title": "PUT",
+                  "contents": "./inventory/http/verbs/put.md",
+                  "status": "draft",
+                  "rulesets": ["core"]
+                },
+                {
+                  "title": "HEAD",
+                  "contents": "./inventory/http/verbs/head.md",
+                  "status": "draft",
+                  "rulesets": ["core"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Caching",
+          "contents": "./inventory/http/caching.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Concurrency control and conditional requests",
+          "contents": "./inventory/http/concurrency-conditional.md",
+          "status": "draft",
+          "rulesets": ["core"],
+          "subsections": [
+            {
+              "title": "Conditional requests",
+              "contents": "./inventory/http/concurrency-conditional/conditional-requests.md",
+              "status": "draft",
+              "rulesets": ["core"]
+            },
+            {
+              "title": "Concurrency control",
+              "contents": "./inventory/http/concurrency-conditional/concurrency-control.md",
+              "status": "draft",
+              "rulesets": ["core"]
+            }
+          ]
+        },
+        {
+          "title": "Media types",
+          "contents": "./inventory/http/media-types.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Query parameters",
+          "contents": "./inventory/http/query-params.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        }
+      ]
+    },
+    {
+      "title": "Security",
+      "status": "draft",
+      "rulesets": ["core"],
+      "subsections": [
+        {
+          "title": "Encryption",
+          "status": "in-development",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Authentication and authorization",
+          "status": "in-development",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "CORS",
+          "status": "in-development",
+          "rulesets": ["core"]
+        }
+      ]
+    },
+    {
+      "title": "Collection endpoints",
+      "status": "draft",
+      "rulesets": ["core"],
+      "subsections": [
+        {
+          "title": "Pagination",
+          "contents": "./inventory/collection/pagination.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Filtering",
+          "contents": "./inventory/collection/filtering.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Searching",
+          "contents": "./inventory/collection/searching.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Sorting",
+          "contents": "./inventory/collection/sorting.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        }
+      ]
+    },
+    {
+      "title": "Specific design patterns",
+      "status": "draft",
+      "rulesets": ["core"],
+      "subsections": [
+        {
+          "title": "Partial responses",
+          "contents": "./inventory/patterns/partial-responses.md",
+          "status": "draft",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Long-running operations",
+          "status": "in-development",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Batch/bulk operations",
+          "status": "in-development",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "File upload",
+          "status": "in-development",
+          "rulesets": ["core"]
+        },
+        {
+          "title": "Large responses",
+          "status": "in-development",
+          "rulesets": ["core"]
+        }
+      ]
+    },
+    {
+      "title": "References",
+      "contents": "./inventory/references.md",
+      "status": "draft",
+      "rulesets": ["core"]
+    }
+  ],
+  "availableRulesets": [
+    {
+      "name": "core",
+      "description": "Standards for use in Core API services"
+    }
+  ]
+}

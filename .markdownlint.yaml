@@ -1,0 +1,21 @@
+heading-style:
+  style: atx
+MD041: false
+ul-style:
+  style: dash
+ol-prefix:
+  style: one
+line-length:
+  line_length: 120
+  code_blocks: false
+  tables: false
+hr-style:
+  style: ---
+proper-names:
+  code_blocks: false
+  names: []
+code-block-style:
+  style: fenced
+code-fence-style:
+  style: backtick
+single-trailing-newline: true

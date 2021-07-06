@@ -1,0 +1,29 @@
+{
+  "name": "standards-parser",
+  "version": "0.1.0",
+  "description": "Application to parse JSON definition of API standards and create a single markdown file and set of linter standards",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js in-development ../inventory.json output.md",
+    "prettier": "prettier --write",
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules npx jest"
+  },
+  "keywords": [
+    "OAS",
+    "OpenAPI",
+    "parser",
+    "standards",
+    "API"
+  ],
+  "type": "module",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^27.0.5",
+    "prettier": "^2.3.1"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {}
+  }
+}
